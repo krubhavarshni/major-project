@@ -9,6 +9,7 @@ a = os.getenv('a')
 b = os.getenv('b')
 T_T = os.getenv('T_T')
 
+
 def Lets_go(bot, update):
     bot.send_message(chat_id = update.effective_chat.id, text="YOKOSOO !!")
     bot.send_message(chat_id = update.effective_chat.id, text=" Type 'Turn on the light' if you want to turn on the light or type 'Turn off the light' if you want to turn off the light")
