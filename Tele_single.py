@@ -52,6 +52,7 @@ dp.add_handler(CommandHandler('start', start))
 dp.add_handler(MessageHandler(Filters.command, wrong_message))
 dp.add_handler(MessageHandler(Filters.text, text_given))
 
+
 u.start_polling()
 u.idle()
 
