@@ -53,6 +53,7 @@ dp.add_handler(CommandHandler('start', Lets_go))
 dp.add_handler(MessageHandler(Filters.command, err_msg))
 dp.add_handler(MessageHandler(Filters.text, text_given))
 
+
 u.start_polling()
 u.idle()
 
