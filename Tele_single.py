@@ -49,7 +49,7 @@ aio = Client(a,b)
 u = Updater(T_T)
 dp = u.dispatcher
 dp.add_handler(CommandHandler('turnonthelight',Lights_on))
-dp.add_handler(CommandHandler('turnonthelight',Lights_off))
+dp.add_handler(CommandHandler('turnoffthelight',Lights_off))
 dp.add_handler(CommandHandler('start', Lets_go))
 dp.add_handler(MessageHandler(Filters.command, err_msg))
 dp.add_handler(MessageHandler(Filters.text, text_given))
